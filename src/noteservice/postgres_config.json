@@ -1,0 +1,9 @@
+{
+     "Host":		 "localhost",
+     "Port":		 5432,
+     "User": 		 "gouser",
+     "Password": 	 "gopassword",
+     "DbName": 		 "godb",
+     "MaxOpenConns": 3,
+	 "MaxIdleConns": 1
+}
