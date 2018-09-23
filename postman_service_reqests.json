@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "264aaaf6-66f4-48c1-a920-be2f6ade660d",
+		"name": "noteService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8080/noteService/list/200",
+				"description": "ss"
+			},
+			"response": []
+		},
+		{
+			"name": "list with offset",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8080/noteService/list/2/4",
+				"description": "ss"
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8080/noteService/get/20",
+				"description": "ss"
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8080/noteService/delete/34",
+				"description": "ss"
+			},
+			"response": []
+		},
+		{
+			"name": "help",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": "http://localhost:8080/noteService",
+				"description": "ss"
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\":\"Noew note \",\"content\":\"Write some integration test of th application 34 \"}\n"
+				},
+				"url": "http://localhost:8080/noteService/create"
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":322,\"title\":\"Create new unit test\" ,\"content\":\"Write some unit test of th application\"}"
+				},
+				"url": "http://localhost:8080/noteService/update"
+			},
+			"response": []
+		}
+	]
+}
